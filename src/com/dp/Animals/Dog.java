@@ -9,4 +9,10 @@ public class Dog extends Animal{
 		super();
 		setSound("bark");
 	}
+	public void sayHello(){
+		bePrivate();
+	}
+	private void bePrivate(){
+		System.out.println("In a private method");
+	}
 }
