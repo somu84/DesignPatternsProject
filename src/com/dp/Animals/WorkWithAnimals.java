@@ -2,6 +2,7 @@ package com.dp.Animals;
 
 public class WorkWithAnimals {
 
+	
 	public static void main(String[] args){
 		Dog fido = new Dog();
 		fido.setName("Fido");
@@ -29,9 +30,14 @@ public class WorkWithAnimals {
 		speakAnimal(kitty);
 		//Can't call methods of the subclass 
 		((Dog)doggy).digHole();
+		
+		Giraffe gf = new Giraffe();
+		gf.setName("Frank");
+		System.out.println(gf.getName());
 	}
 	
 	public static void speakAnimal(Animal randAnimal){
 		System.out.println("Animal says "+ randAnimal.getSound());
 	}
+	
 }
