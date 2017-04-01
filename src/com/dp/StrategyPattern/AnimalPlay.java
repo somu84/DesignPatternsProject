@@ -1,5 +1,10 @@
 package com.dp.StrategyPattern;
 
+/**
+ * The Strategy DP, lets the algorithm vary independently from the client that use it.
+ * @author Somu
+ *
+ */
 public class AnimalPlay {
 	
 	public static void main(String[] args){
