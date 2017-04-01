@@ -22,7 +22,7 @@ public class GetTheStock implements Runnable{
 			}
 			catch(InterruptedException e){}
 			
-			double rand = (Math.random()* (.06) - (.03));
+			double rand = (Math.random()* (.06)) - (.03);
 			
 			DecimalFormat df = new DecimalFormat("#.##");
 			

@@ -32,11 +32,9 @@ public static void main(String[] args){
 		stockGrabber.setAaplPrice(677.60);
 		stockGrabber.setGoogPrice(676.40);
 		
-		stockGrabber.register(observer1);
-		stockGrabber.register(observer2);
 		// Delete one of the observers
 		
-		// stockGrabber.unregister(observer2);
+		stockGrabber.unregister(observer2);
 		
 		stockGrabber.setIbmPrice(197.00);
 		stockGrabber.setAaplPrice(677.60);
