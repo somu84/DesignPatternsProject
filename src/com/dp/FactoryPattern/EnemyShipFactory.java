@@ -15,7 +15,7 @@ public class EnemyShipFactory {
 	 * @param newShipType
 	 * @return
 	 */
-	public EnemyShip makeEnemyShip(String newShipType){
+	public static EnemyShip makeEnemyShip(String newShipType){
 		EnemyShip newShip = null;
 		switch(newShipType){
 		case "U":
