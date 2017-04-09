@@ -5,7 +5,7 @@ public class ATMMachine implements GetATMData{
 	ATMState noCard;
 	ATMState hasCorrectPin;
 	ATMState atmOutOfMoney;
-	ATMState atmState;
+	private ATMState atmState;
 	int cashInMachine = 2000;
 	
 	public ATMMachine(){
@@ -25,7 +25,7 @@ public class ATMMachine implements GetATMData{
 		
 	}
 	
-	void setATMState(ATMState newATMState){
+	public void setATMState(ATMState newATMState){
 		
 		atmState = newATMState;
 		
